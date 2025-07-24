@@ -1,0 +1,53 @@
+#######################################
+# Syntax Coloring Map For HDC Universal
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+HDC_Universal	KEYWORD1
+HDC_DeviceType	KEYWORD1
+HDC_Resolution	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+isConnected	KEYWORD2
+getDeviceType	KEYWORD2
+readTemperature	KEYWORD2
+readHumidity	KEYWORD2
+readTemp	KEYWORD2
+readHumid	KEYWORD2
+readManufacturerId	KEYWORD2
+readDeviceId	KEYWORD2
+setTemperatureResolution	KEYWORD2
+setHumidityResolution	KEYWORD2
+enableHeater	KEYWORD2
+disableHeater	KEYWORD2
+heatUp	KEYWORD2
+triggerMeasurement	KEYWORD2
+reset	KEYWORD2
+setTempOffsetAdjust	KEYWORD2
+setHumidityOffsetAdjust	KEYWORD2
+setLowTempThreshold	KEYWORD2
+setHighTempThreshold	KEYWORD2
+setLowHumidityThreshold	KEYWORD2
+setHighHumidityThreshold	KEYWORD2
+enableInterrupts	KEYWORD2
+disableInterrupts	KEYWORD2
+readInterruptStatus	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+HDC_UNKNOWN	LITERAL1
+HDC_1080	LITERAL1
+HDC_2080	LITERAL1
+HDC_RES_8BIT	LITERAL1
+HDC_RES_9BIT	LITERAL1
+HDC_RES_11BIT	LITERAL1
+HDC_RES_14BIT	LITERAL1
